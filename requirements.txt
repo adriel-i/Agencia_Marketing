@@ -1,0 +1,10 @@
+#Al ejecutar "pip install -r .\requirements.txt" se instalaran todos los paquetes que esten aca adentro
+
+django==3.2.16
+django-environ==0.9.0 #-> django-environ es para la privacidad y seguridad de las contraseñas
+django-cors-headers==3.13.0 #-> Para permitir la comunicaion entre el Frontend y el Backend
+djangorestframework==3.14.0 #-> Permite crear APIs con django
+Pillow==9.3.0 #-> Permite trabajar con imagenes
+django-storages==1.13.1 #-> Para guardar las imagens en un CDN para quq no realentice la APIs
+django-ckeditor==6.3.2 #-> Permite crear contenido de manera mas "rica", distintas formas de texto y etc
+psycopg2==2.9.5 #-> Para trabajar con Postgre SQL
