@@ -1,0 +1,20 @@
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | DJANGO REST & REACT | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+
+Crear ambiente virtual:
+	*En terminal en carpeta del proyecto* python -m virtualenv env
+
+Activar ambiente Virtual:
+	./env/Scripts/activate
+
+Instalar Django:
+	pip install django==3.2.16
+
+Crear proyecto Django.
+	django-admin starrtproject core . (core es la carpeta general del pryecto)
+
+Tipos
+	ASGI= para paginas en vivo o de streaming
+	WSAGI = para paginas estaticas
+
+Migrar base de datos:
+	*En terminal* python .\manage.py migrate
